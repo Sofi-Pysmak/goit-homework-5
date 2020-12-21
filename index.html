@@ -7,65 +7,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
 <!--styles-in-->
     <link rel="stylesheet" href="./css/styles.css">
-    
+
     <title>Studio</title>
 </head>
 
 <body>
 <!-- header -->
     <header class="header">
+        <div class="container">
         <nav class="main-nav ">
             <a class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
             <ul class="main-nav-list">
-                <Li class="item"> 
-                    <a class="main-nav-link current" href="./index.html">студия</a> 
+                <Li class="item">
+                    <a class="main-nav-link current" href="./index.html">студия</a>
                 </Li>
-                <Li class="item"> 
-                    <a class="main-nav-link" href="./portfolio.html">портфолио</a> 
+                <Li class="item">
+                    <a class="main-nav-link" href="./portfolio.html">портфолио</a>
                 </Li>
-                <li class="item"> 
-                    <a class="main-nav-link" href="#">контакты</a> 
+                <li class="item">
+                    <a class="main-nav-link" href="#">контакты</a>
                 </li>
             </ul>
             <ul class="header-contacts">
-                <Li class="header-contacts-link icon"> 
+                <Li class="header-contacts-link icon">
                     <a href="#">
                         <svg class="icon-email"  width=16 height=12>
                             <use class="email" href=./images/sprite.svg#email >
                             </use>
                         </svg>info@devstudio.com </a>
                 </Li>
-                <Li class="header-contacts-link icon"> 
+                <Li class="header-contacts-link icon">
                     <a href="#">
                         <svg class="icon-phone" width=10 height=16 >
                             <use class="phone" href=./images/sprite.svg#phone >
                             </use>
-                        </svg> 
-                        +380961111111 
+                        </svg>
+                        +380961111111
                     </a>
                 </Li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
 <!--hero-->
-        <section class="hero container">
+        <section class="hero">
             <div class="container" >
                 <h1 class="title">эффективные решения для вашего бизнеса</h1>
-                <button data-modal-open class="hero-button">Заказать услугу</button>
-                <div class="backdrop is-hidden" data-modal>
-                    <div class="modal">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                        </p>
-                        <button data-modal-close>pfrh</button>
-                    </div>
-                </div>
-
+                <button class="hero-button">Заказать услугу</button>
             </div>
         </section>
 <!--<h2>Особенности</h2>-->
@@ -109,8 +102,8 @@
                 </li>
             </ul>
         </section>
-<!-- Работы -->
-        <section class="work" > 
+<!-- Чем мы занимаемся -->
+        <section class="work">
             <div class="container">
                 <h2 class="title">Чем мы занимаемся</h2>
                 <ul class="work-list">
@@ -136,7 +129,7 @@
                         <h3>Игорь Демьяненко</h3>
                         <p>Product Designer</p>
                         <ul class="team-icon">
-                            <li> 
+                            <li>
                                 <a class="link" href="#">
                                     <svg class="icon">
                                         <use href="./images/sprite.svg#instagram"></use>
@@ -330,53 +323,53 @@
     </main>
 <!-- footer -->
     <footer class="footer">
-        <div class="footer-nav container">
-            <a class="logo"><span class="logo-web">Web</span><span class="footer-logo-studio">Studio</span></a>
-            <address>
-                <ul class="contacts">
-                    <li class="item"><a class="address" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="item"><a class= "item-contacts" href="#">info@example.com</a></li>
-                    <li class="item"><a class= "item-contacts" href="#">+38 099 111 11 11</a></li>
-                </ul>       
-            </address>
-        </div>
+        <div class="container">
+            <div class="footer-nav">
+                <a class="logo"><span class="logo-web">Web</span><span class="footer-logo-studio">Studio</span></a>
+                <address>
+                    <ul class="contacts">
+                        <li class="item"><a class="address" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="item"><a class= "item-contacts" href="#">info@example.com</a></li>
+                        <li class="item"><a class= "item-contacts" href="#">+38 099 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
 
-        <div class="footer-join container">
-            <h3 class="title">Присоединяйтесь</h3>
-            <ul class="footer-social">
-                <li class="link">
-                    <a href="#">
-                        <svg class="icon">
-                            <use href="./images/sprite.svg#instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="link">
+            <div class="footer-join">
+                <h3 class="title">Присоединяйтесь</h3>
+                <ul class="footer-social">
+                    <li class="link">
+                        <a href="#">
+                            <svg class="icon">
+                                <use href="./images/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="link">
                     <a href="#">
                         <svg class="icon">
                             <use href="./images/sprite.svg#twitter"></use>
                         </svg>
                     </a>
-                </li>
-                <li class="link">
+                    </li>
+                    <li class="link">
                     <a href="#">
                         <svg class="icon">
                             <use href="./images/sprite.svg#facebook"></use>
                         </svg>
                     </a>
-                </li>
-                <li class="link">
+                    </li>
+                    <li class="link">
                     <a href="#">
                         <svg class="icon">
                             <use href="./images/sprite.svg#linkedin"></use>
                         </svg>
                     </a>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
-
-<script src="./js/modal.js"></script>
 </body>
 
 </html>
