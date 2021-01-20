@@ -171,8 +171,11 @@ button {
 
   color: var(--light-text-color);
 }
-
+.header-contacts a{
+  text-align: center;
+}
 .header-contacts {
+  text-align: center;
   color: var(--light-text-color);
 }
 
@@ -184,6 +187,7 @@ button {
 .header-contacts-link {
   padding-top: 32px;
   padding-bottom: 32px;
+  line-height: 1.2;
 }
 .header-contacts-link .icon-email,
 .header-contacts-link .icon-phone {
@@ -509,6 +513,8 @@ button {
   fill: var(--accent-color);
   border-color: var(--accent-color);
   color: var(--accent-color);
+  cursor: pointer;
+
 }
 
 .clients-list .icon {
@@ -588,15 +594,15 @@ button {
   display: flex;
   width: 44px;
   height: 44px;
-  color: var(--white-color);
+  color: var(--white-text-color);
   background-color: var(--social-bg-color);
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
   align-items: center;
-  transition: background-color 250ms var(--timing-function);
-  
+  transition: background-color var(--timing-function);
+
 }
 .social-link:hover,
 .social-link:focus {
@@ -695,6 +701,7 @@ button {
   flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
+margin-bottom: 94px;
 }
 .projects-list .item {
   margin: 15px;
